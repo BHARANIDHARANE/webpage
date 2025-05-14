@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>simple form </title>
+    </head>
+    <style>
+         body{
+                background-image: url('back.jpg');
+                background-size: auto;
+            }
+        body {
+            background-color: #c299dc;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            color: #de1a1a;
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #ffffff;
+            
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(121, 4, 4, 0.966);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],    
+        input[type="password"],
+        input[type="tel"],
+        input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #000000;
+        }
+    </style>
+    <body>
+        <h2>\\USERS SIGNUP FORM//</h2>
+        <form>
+            <!--Name field-->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <!--Email field-->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <!--Password field-->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <!--Phone Number field-->
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br><br>
+            <!--Address field-->
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+            <br><br>
+            <!--Confirm Password field-->
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+            <br><br>
+            <!--Date of birth-->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <!--Submit button-->
+            <input type="submit" value="sing up">
+            <br><br>
+            <!--Reset button-->
+            <input type="reset" value="reset">
+            <br><br>
+            
+            <!--Checkbox for terms and conditions-->
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms and conditions</label>
+            <br><br>
+        </form>
+        <a href="https://example.com">Click here to visit Example</a>
+
+    </body>
+</html>
